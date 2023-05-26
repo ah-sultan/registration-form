@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Data Creation</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>Registrtion Form</h1>
+
+        <div class="main-box">
+            <div class="left-box w-70">
+                <p class="title">2021 - 2026 Admission Application:</p>
+            </div>
+            <div class="right-box w-30">
+                <button type="button" id="submitBtn">Submit</button>
+            </div>
+
+        </div>
+        
+
+        <div class="main-box">
+            <div class="left-box w-50">
+                <label for="fName">First Name:</label>
+                <input type="text" placeholder="First Name" name="fName" id="fName">
+            </div>
+            <div class="right-box w-50">
+                <label for="lName">Last Name:</label>
+                <input type="text" placeholder="Last Name" id="lName">
+            </div>
+        </div>
+
+        <div class="main-box">
+            <div class="left-box w-70">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Email">
+
+
+            </div>
+            <div class="right-box w-30">
+                <label for="pNumber">Phone Number:</label>
+                <input type="number" id="pNumber" placeholder="Phone Number">
+            </div>
+        </div>
+
+        <div class="main-box">
+            <div class="left-box">
+                <label for="dateOfBirth">Date Of Birth:</label>
+                <input type="text" id="dateOfBirth" placeholder="Date Of Birth">
+            </div>
+            <div class="right-box">
+                <label for="religion">Religion</label>
+                <input type="text" id="religion" placeholder="Religion">
+            </div>
+            <div class="left-box">
+                <label for="gender">Gender</label>
+                <input type="text" id="gender" placeholder="Gender">
+            </div>
+        </div>
+
+
+        <div class="main-box ">
+            <div class="left-box w-100">
+                <label for="address">Address:</label>
+                <input type="address" id="address" placeholder="Address">
+            </div>
+        </div>
+
+        <div class="main-box">
+            <div class="right-box w-30">
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" placeholder="Nationality">
+            </div>
+            <div class="left-box w-70">
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city" placeholder="City">
+            </div>
+        </div>
+
+        <div class="main-box">
+            <div class="left-box w-40">
+                <label for="country">Country:</label>
+                <input type="text" placeholder="Country" id="country">
+            </div>
+            <div class="right-box w-40">
+                <label for="postCode">Post Code:</label>
+                <input type="text" placeholder="Post Code" id="postCode">
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <div class="data-wrapper">
+
+        <h1>Student data</h1>
+
+        <table border="0" cellspacing="0" cellpadding="0">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                    <th>Phone Number</th>
+                    <th>Date Of Birth</th>
+                    <th>Religion</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th>Nationality</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Post Code</th>
+                </tr>
+            </thead>
+            <tbody id="dataInsert">
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

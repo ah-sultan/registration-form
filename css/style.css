@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 850px;
+    padding: 25px;
+    margin: 0 auto;
+    border: 1px solid #e1e5e7;
+    margin-top: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+
+    width: 50%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+
+    width: 30%;
+}
+
+p {
+    padding: 10px;
+}
+
+h1 {
+    background: #272460;
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+p.title {
+
+    border-top: #ee3b38;
+    color: #272460;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 400;
+}
+
+input {
+
+    background: #e1e5e7;
+    border: 0;
+    padding: 8px 10px;
+    display: inline-block;
+    width: 100%;
+
+}
+
+input:focus {
+
+    outline: none;
+}
+
+.main-box {
+    display: flex;
+}
+
+.left-box,
+.right-box {
+
+    padding: 10px;
+}
+
+.data-wrapper {
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+th {
+    padding: 8px 4px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: capitalize;
+    background-color: #272460;
+    text-align: left;
+}
+
+table tbody tr td {
+    padding: 10px 4px;
+    background: #2724603d;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.4;
+    border: 1px solid #e1e5e7;
+}
+
+table tbody tr:nth-child(odd) td {
+
+    background-color: #27246060;
+}
+
+table tbody tr td:hover{
+    color: #fff;
+    background-color: #272460;
+}
+
+#submitBtn{
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px;
+    padding: 10px 50px;
+    display: block;
+    border: 0;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #272460;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
